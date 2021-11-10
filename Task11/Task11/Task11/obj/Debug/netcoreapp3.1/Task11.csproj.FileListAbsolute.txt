@@ -1,0 +1,13 @@
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/bin/Debug/netcoreapp3.1/Task11.deps.json
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/bin/Debug/netcoreapp3.1/Task11.runtimeconfig.json
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/bin/Debug/netcoreapp3.1/Task11.runtimeconfig.dev.json
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/bin/Debug/netcoreapp3.1/Task11.dll
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/bin/Debug/netcoreapp3.1/Task11.pdb
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.csproj.AssemblyReference.cache
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.GeneratedMSBuildEditorConfig.editorconfig
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.AssemblyInfoInputs.cache
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.AssemblyInfo.cs
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.csproj.CoreCompileInputs.cache
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.dll
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.pdb
+/Users/artemhuk/Desktop/Sigma/Task11/Task11/Task11/obj/Debug/netcoreapp3.1/Task11.genruntimeconfig.cache
