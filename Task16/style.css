@@ -1,0 +1,273 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    width: 100vw;
+}
+
+header
+{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+}
+.space-under-header
+{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(94, 91, 91);
+    
+}
+nav 
+{
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+nav a
+{
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    margin: 0;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+    text-align: center;
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 510;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+a:hover
+{
+    
+    color: rgb(255, 204, 252);
+    
+}
+
+#about-page
+{
+    
+    width: 100%;
+    display: grid;
+    grid-template-rows: 94vh auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'image' 'pageText';
+    
+
+}
+
+.about-page-picture-wrap
+{
+    grid-area: image;
+    height: 94vh;
+    width: 100%;
+    background-image: url('imgs/vivid-emotions-1800220383.jpg');
+    
+    
+}
+.about-page-main-text-wrap
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    
+}
+
+.about-page-main-text-wrap > h1
+{
+    
+    display: inline-block;
+    line-height:6.5rem;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    margin: 0;
+    color: #fff;
+    font-size: 4.9em;
+    font-weight: 510;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.about-page-text
+{
+    padding-left: 4vw;
+    padding-right: 4vw;
+    z-index: 2;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    grid-area: pageText;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about-page-text >h3
+{
+    text-align: center;
+    color: #1d1d1f;
+    font-size: 1.3em;
+}
+.about-page-text >h2
+{
+    font-size: 2em;
+    color: #1d1d1f;
+    text-align: center;
+}
+#about-me
+{
+    width: 100vw;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr;
+    grid-template-areas: 'meHeader' 'meImage' 'meText';
+    background-color: rgb(53, 201, 238);
+}
+#about-me > h2
+{
+    grid-area: meHeader;
+    margin: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    color: #fff;
+    font-size: 4.3em;
+    font-weight: 510;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.about-me-picture-wrap
+{
+    text-align: center;
+    grid-area: meImage;
+}
+.about-me-picture-wrap img
+{
+    width: 80vw;
+}
+.about-me-text-wrap
+{
+    grid-area: meText;
+    margin: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align:justify;
+    color: #fff;
+    padding: 30px;
+    
+}
+.about-me-text-wrap h3
+{
+    
+    
+    font-weight: 510;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;   
+    font-size: 1.3em;
+}
+#another-useless-section
+{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+footer
+{
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(30, 34, 63);
+    margin: 0;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    font-weight: 510;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    
+}
+
+#another-useless-section h1
+{
+    font-size: 4.9em;
+    font-weight: 510;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-align: center;
+    background:linear-gradient(45deg, rgb(247, 0, 255), rgb(255, 238, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+@media screen and (min-width: 720px) {
+    #about-page
+    {
+        grid-template-rows: auto;
+        grid-template-columns: auto auto;
+        grid-template-areas: 'image pageText';
+    }
+
+    .about-page-picture-wrap
+    {
+        
+        
+        width: 50vw;
+        
+        
+    }
+    .about-page-text
+    {
+        
+        padding-left: 6vw;
+        padding-right: 6vw;
+    }
+
+    #about-me
+    {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: 'meHeader meHeader meHeader' 'meImage meText meText';
+
+        
+    }
+    
+    #about-me h2
+    {
+        padding: 3vh;
+    }
+    .about-me-picture-wrap img
+    {
+        width: 25vw;
+        margin: 5vw;
+        margin-top: 2vw;
+    }
+    .about-me-text-wrap 
+    {
+        padding: 5vw;
+        font-size: 1.2em;
+
+    }
+    nav a
+    {
+        font-size: 1.4em;
+    }
+    footer
+    {
+        font-size: 3em;
+    }
+}
